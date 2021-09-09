@@ -1,0 +1,18 @@
+name : "Hello Actions"
+description: "Greet Stephan"
+author: "octocat@github.com"
+
+inputs:
+  Kio:
+    description: "Greets Stephan"
+    required: true
+    default: "World"
+   
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
